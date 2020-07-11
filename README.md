@@ -1,5 +1,5 @@
 # Rasanlu-chatbot
-# Rasa currently only supports Python version <= 3.6. If you have a higher version of Python, you can set up a new environment in conda using the following command
+### Rasa currently only supports Python version <= 3.6. If you have a higher version of Python, you can set up a new environment in conda using the following command
 conda create -n rasa python=3.6
 
 conda activate rasa
