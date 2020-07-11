@@ -7,7 +7,7 @@ import pandasql
 nlu_model = Interpreter.load('./models/current/nlu')
 
 ## load the data
-data = pd.read_csv('C:/Users/DELL/Desktop/shridhar/student/student-mat.csv')
+data = pd.read_csv('./data/student-mat.csv')
 
 def generate_query(entity,values):
 	if not entity:
